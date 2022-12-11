@@ -1,6 +1,7 @@
 import os
 from tkinter import *
 import sqlite3
+import streamlit
 
 conn = sqlite3.connect("bens.db")
 curr = conn.cursor()
